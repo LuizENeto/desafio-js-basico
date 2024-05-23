@@ -1,11 +1,23 @@
-let soma = 2+2
-console.log (soma)
 
-let subtracao = 10-5
-console.log (subtracao)
+  function somar(a,b) {
+    return a+b;
+  }
+  function subtrair(a,b) {
+    return a-b;
+  }
+  
+  function multiplicar(a,b) {
+    return a*b;
+  }
+  
+  function dividir(a,b) {
+      return a/b;
+  }
+  
+  console.log(somar(1,1));
 
-let multiplicacao = 4*5
-console.log (multiplicacao)
+  console.log(subtrair(10,5));
 
-let divisao = 10/2
-console.log (divisao)
+  console.log(multiplicar(2,5));
+
+  console.log(dividir(10,5));
